@@ -1,0 +1,46 @@
+body{
+    background: rgb(0, 0, 0);
+  font-family : "Press Start 2P", system-ui;
+  font-weight : 400;
+  font-style : normal; 
+  text-align: center;
+
+}
+
+.float {
+  animation: float 3s infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+h1{
+     font-size: 40px;
+    color:rgb(26, 255, 0);
+     margin-bottom: 30px;
+    border: 8px dotted rgb(3, 209, 255);
+    width: 900px;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+h2{
+     font-size: 20px;
+     margin-top: -90px;
+     text-align: center;
+    color:rgb(255, 255, 255);
+     line-height: 1.4;
+}
+
+
+
+#game2 {
+     width: 500px;
+     height: 500px;
+     margin: 30px auto;
+}
